@@ -7,6 +7,11 @@ const createRouter = function(data) {
     res.json(data);
   });
 
+  router.post('/', function(req, res) {
+    data.push(req.body);
+    res.json(data);
+  });
+
   return router;
 };
 
