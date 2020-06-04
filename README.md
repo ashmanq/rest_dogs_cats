@@ -8,3 +8,4 @@
 ### The app carries out the following:
 * Has two api routes for cats and dogs (/api/cats & /api/dogs)
 * Is able to use the api to get all cats or all dogs
+* Full CRUD activities on both dogs and cats
